@@ -1,3 +1,4 @@
+sudo usermod -a -G docker
 sudo service docker start
 FROM ubuntu
 MAINTAINER SanaSulthana<sulthana1998.iiit@mail.com>
