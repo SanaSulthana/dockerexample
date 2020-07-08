@@ -1,3 +1,4 @@
+sudo gpasswd -a jenkins docker
 FROM ubuntu
 MAINTAINER SanaSulthana<sulthana1998.iiit@mail.com>
 RUN apt-get update
