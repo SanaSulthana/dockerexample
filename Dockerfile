@@ -1,4 +1,5 @@
-FROM openjdk:8
-EXPOSE 8080
-ADD target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
-ENTRYPOINT ["java", "-jar","/docker-jenkins-integration-sample.jar"]
+FROM ubuntu
+MAINTAINER SanaSulthana<sulthana1998.iiit@mail.com>
+RUN apt-get update
+RUN apt-get Docker_image
+CMD ["echo","my docker image"]
